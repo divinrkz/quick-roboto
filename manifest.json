@@ -1,0 +1,23 @@
+{
+    "id": "893476743843",
+    "name": "Quick Roboto",
+    "version": "1.0.0",
+    "description": "Convert all selected test items to Montserrat",
+    "summary": "Summary of your plugin",
+    "languages": ["en"],
+    "author": "Divin Irakiza",
+    "helpUrl": "https://mywebsite.com/help",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    ""
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "Quick Roboto",
+        "commandId": "quickRoboto2",
+        "shortcut": {"mac": "Cmd+Alt+N", "win": "Ctrl+Alt+N"}
+      }
+    ]
+  }
