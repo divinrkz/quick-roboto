@@ -6,7 +6,7 @@ function quickRoboto2(selection) {
     if (selection.items.length !== 0) {
         selection.items.forEach((node) => {
             node.styleRanges = [{
-                fontFamily: 'Montserrat'
+                fontFamily: 'Roboto'
             }]
         })
     }
